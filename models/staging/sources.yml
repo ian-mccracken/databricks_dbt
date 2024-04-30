@@ -1,0 +1,8 @@
+version: 2 
+
+sources:
+  - name: training
+    database: databricktraining_imccracken  
+    schema: dawd_v2  
+    tables:
+      - name: sales_demo
