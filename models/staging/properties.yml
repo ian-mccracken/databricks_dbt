@@ -1,0 +1,36 @@
+version: 2 
+
+models: 
+  - name: stg_training_sales_demo
+    description: source data for customers and sales associated with customers 
+    columns:
+      - name: table_name
+      - name: customer_id
+      - name: sale_customer_name
+      - name: product_name
+      - name: order_date
+      - name: product_category
+      - name: product
+      - name: total_price
+      - name: table_name1
+      - name: first_timestamp
+      - name: gym
+      - name: mac
+      - name: customer_id2
+      - name: tax_id
+      - name: tax_code
+      - name: customer_name
+      - name: address1
+      - name: address2
+      - name: city
+      - name: state
+      - name: zip
+      - name: region
+      - name: district
+      - name: longitude
+      - name: latitude
+      - name: ship_to_address
+      - name: customer_valid_from
+      - name: customer_valid_to
+      - name: units_purchased
+      - name: loyalty_segment 

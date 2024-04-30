@@ -1,0 +1,11 @@
+version: 2 
+
+models:
+  - name: dim_customer
+    description: dimension for customers and their product sales by product group
+    columns:
+      - name: dim_customer_key 
+        description: primary key for dimension
+        tests:
+          - unique 
+          - not_null 
