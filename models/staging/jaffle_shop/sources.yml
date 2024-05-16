@@ -3,7 +3,7 @@ version: 2
 sources:
   - name: jaffle_shop
     description: dbt training jaffle shop dataset 
-    database: hive_metastore
+    database: jaffle_shop_stg
     schema: default 
     tables:
       - name: jaffle_shop_orders

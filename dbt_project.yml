@@ -40,13 +40,20 @@ models:
     # Applies to all files under models/example/
     example:
       +materialized: table
-    analytics:
-      marts:
+    marts:
+      jaffle_shop_marts:
         +materialized: table
         +schema: edm
+      databricks_training:
+        +materialized: table 
+        +schema: edm 
         intermediate:
           +materialized: table
           +schema: dbt_stg
-      staging:
+    staging:
+      databricks_training:
+        +materialized: view
+        +schema: dbt_stg
+      jaffle_shop:
         +materialized: view
         +schema: dbt_stg
