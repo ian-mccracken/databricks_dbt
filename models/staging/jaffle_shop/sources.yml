@@ -1,0 +1,14 @@
+version: 2 
+
+sources:
+  - name: jaffle_shop
+    description: dbt training jaffle shop dataset 
+    database: hive_metastore
+    schema: default 
+    tables:
+      - name: jaffle_shop_orders
+      - name: jaffle_shop_items
+      - name: jaffle_shop_customers
+      - name: jaffle_shop_supplies
+      - name: jaffle_shop_stores
+      - name: jaffle_shop_products
